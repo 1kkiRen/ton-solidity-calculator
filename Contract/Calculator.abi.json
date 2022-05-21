@@ -1,0 +1,72 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "addition",
+			"inputs": [
+				{"name":"x","type":"string"},
+				{"name":"y","type":"string"}
+			],
+			"outputs": [
+				{"name":"value0","type":"int256"}
+			]
+		},
+		{
+			"name": "subtraction",
+			"inputs": [
+				{"name":"x","type":"string"},
+				{"name":"y","type":"string"}
+			],
+			"outputs": [
+				{"name":"value0","type":"int256"}
+			]
+		},
+		{
+			"name": "multiplication",
+			"inputs": [
+				{"name":"x","type":"string"},
+				{"name":"y","type":"string"}
+			],
+			"outputs": [
+				{"name":"value0","type":"int256"}
+			]
+		},
+		{
+			"name": "division",
+			"inputs": [
+				{"name":"x","type":"string"},
+				{"name":"y","type":"string"}
+			],
+			"outputs": [
+				{"name":"value0","type":"int256"}
+			]
+		},
+		{
+			"name": "str_to_num",
+			"inputs": [
+				{"name":"value","type":"string"}
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"}
+	]
+}
